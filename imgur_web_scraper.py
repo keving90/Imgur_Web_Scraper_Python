@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#!/usr/bin/env python3
 
 ''' This module goes to imgur.com, types a provided search query (user input), and downloads the first X 
 (user input) galleries.
