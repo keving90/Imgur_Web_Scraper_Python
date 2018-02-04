@@ -1,7 +1,7 @@
 # Imgur Web Scraper (Python 3.6.1)
 
 ### Introduction
-This Python program will download the first `N` image galleries from https://imgur.com/ based on the user's input. When the program begins, the user is first asked to enter the desired search query. Then, the user is asked how many galleries they would like to download. The program will then use `selenium` to open Firefox, go to each gallery, and download all images in each gallery. Each gallery that is downloaded is placed in its own folder. A single folder is used to hold all of these gallery folders.
+This Python program will download the first `N` image galleries from https://imgur.com/ based on the user's input. When the program begins, the user is first asked to enter the desired search query. Then, the user is asked how many galleries they would like to download. The program will then use `selenium` to open Firefox, go to each gallery, and download all images in each gallery. A folder used to hold the galleries will be created in the same directory as `imgur_web_scraper.py`. Each gallery will have its own folder.
 
 Warning: The program will overwrite any folder with the exact same name as the folder it’s trying to create. For instance, if your search query is “funny dogs”, then a folder called “funny_dogs_pics” will be saved in the module’s directory. If you have another folder called “funny_dogs_pics”, the the program will overwrite this folder. Inside the pics folder you will find a separate folder for each gallery.
 
