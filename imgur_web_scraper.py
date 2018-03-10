@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 """
-This module goes to imgur.com, and downloads the first N galleries (up to 60) of a certain imgur search based on
-user input.
+This Python program goes to imgur.com and downloads the first N galleries (up to 60) of a certain imgur search 
+based on user input.
 
 Usage: python3 imgur_web_scraper.py
 
