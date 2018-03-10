@@ -263,7 +263,7 @@ def main():
 
         # Path to geckodriver
         # Download geckodriver at: https://github.com/mozilla/geckodriver/releases
-        driver = webdriver.Firefox(executable_path='/usr/local/bin/geckodriver')
+        driver = webdriver.Firefox(executable_path='/usr/local/bin/geckodriver') # CHANGE THIS PATH IF NEEDED
         driver.implicitly_wait(10)
 
         download_galleries(driver, gallery_id_list, num_galleries)

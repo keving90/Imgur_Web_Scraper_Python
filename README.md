@@ -13,7 +13,7 @@ In order to run this program, you must have `Python 3` (I used Python 3.6.1 to m
 ### Installation
 Place `imgur_web_scraper.py` in your desired folder. Open an new Terminal window, and change to the directory holding `imgur_web_scraper.py`. The program can be run with the following Terminal command: `python3 imgur_web_scraper.py`.
 
-Note: By default, the program looks for geckodriver in /usr/local/bin/geckodriver. If you have geckodriver in a different folder, then you can edit Line 170 of the code to change the path.
+Note: By default, the program looks for geckodriver in /usr/local/bin/geckodriver. If you have geckodriver in a different folder, then you can edit Line 266 of the code to change the path.
 
 ### Other Remarks
 This program works well on my computer, but I am interested in knowing how it will work for others. I created it on macOS, so I'm curious about its compatibility with Linux and Windown systems. Therefore, I encourage you to try it out. Please let me know if you have any problems. Comments and suggestions are welcome.
